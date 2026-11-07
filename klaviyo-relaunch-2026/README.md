@@ -76,3 +76,17 @@ Preislogik (Vorgabe): **SchwimmWelten-Preis − 25 %**, nie höher als unser akt
 4. **Shopify**: Collection `/collections/black-week` und VIP-Seite `/pages/black-week-vip` existieren noch nicht (Links in Mails). Preisumstellung zeitgesteuert (z. B. Mo 23.11. 12:00).
 5. **Claims prüfen**: „Kauf auf Rechnung für Vereine“, Welcome-Code `WILLKOMMEN10` muss in Shopify existieren.
 6. **Hygiene vor BW**: Sunset-Flow aktivieren, Suppressions prüfen (Checkout-Mail 2 nur 80 % Zustellung), Kampagnen immer mit Ausschluss „Sunset Suppressed (Auto)“ + „Sunset Liste/Exclude E-Mail“.
+
+## 6. In Klaviyo angelegt (Entwürfe)
+
+Templates (`[NEU 2026] …`): Welcome `SP3mPm` · Warenkorb `VdT3U7` · Checkout `UjMJaA` · Produktsuche `UHwfMp` · Post-Purchase `SqHAac` · BW26_01 `VDvPFX` · BW26_02 `V7Hht6` · BW26_03 `XQfuRB` · BW26_04 `TNerXa` · BW26_05 `UiBe5S` · BW26_06 `RpXZUL`
+
+Kampagnen (Status `draft`, nicht geplant):
+- BW26 · 01 Oops – `01M6V230VQJYAAWCKD9Y803G5B`
+- BW26 · 02 VIP – `01M6V23QW2PSAT5GTQ1HM97KZD`
+- BW26 · 03 Launch – `01M6V23S3NVMDXX6DCKCCQ4RAN`
+- BW26 · 04 Black Friday Vereine – `01M6V23V1VMWD3BMVCT1RCDFRB`
+- BW26 · 05 Cyber Monday – `01M6V23WCE429FS7P8CJP1YARA`
+- BW26 · 06 Last Chance – `01M6V23XRGREVNBTZQ5KNVP0YS`
+
+Audience überall: Email Liste ALL + Shopify Profile + Exit Popup + VIP Pre-Sale; ausgeschlossen: beide Sunset-Listen + Segment „Sunset: Never Engaged + High Bounce“.
