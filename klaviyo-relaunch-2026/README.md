@@ -90,3 +90,21 @@ Kampagnen (Status `draft`, nicht geplant):
 - BW26 · 06 Last Chance – `01M6V23XRGREVNBTZQ5KNVP0YS`
 
 Audience überall: Email Liste ALL + Shopify Profile + Exit Popup + VIP Pre-Sale; ausgeschlossen: beide Sunset-Listen + Segment „Sunset: Never Engaged + High Bounce“.
+
+## 7. Josh-Rauer-Kits (mailsupply) auf pimpertz umgebaut – Canva
+
+Originale unverändert, Arbeit nur auf Kopien `pimpertz · <Kit> · 2026`.
+
+| Kit | Canva design_id | Status |
+|---|---|---|
+| Sale (Black Week, 28 Mails) | DAHaQcel-Qk | in Arbeit (VIP-Start auf Mo 23.11. 10:30 korrigiert) |
+| Bite (Flows, 8 Mails) | DAHaQd2Zp74 | fertig, geprüft |
+| Pulse / Ease / Muse / Spa | – | in Arbeit |
+
+Bildwelt: 12 Higgsfield-Motive (`pz26_*`) + Logo + 7 Produkt-Freisteller in Canva hochgeladen.
+
+## 8. Black Week – Stand 09.11.
+
+- Oops-Mail (Di 10.11.) als **Plain-Text** neu: Template `UjMNuv`, Kampagne `01M6V230VQJYAAWCKD9Y803G5B` zeigt darauf; einziger Link → `https://pimpertz.de/pages/black-week` (+ Pflicht-Abmeldelink).
+- Landingpage `/pages/black-week` in Shopify angelegt (Page `172227297544`, **unveröffentlicht**): Countdown bis Mo 23.11. 10:30, VIP-Formular → Klaviyo-Liste „VIP Pre-Sale 24h“ (Syrjty) via Client API, Preisvorschau. Quelle: `landingpage/black-week.html`.
+- Offen: LP veröffentlichen, Sendezeit Di festlegen, Collection `/collections/black-week` anlegen.
