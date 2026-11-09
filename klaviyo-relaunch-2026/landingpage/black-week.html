@@ -1,0 +1,121 @@
+<!-- pimpertz Black Week 2026 – Landingpage-Body für Shopify (/pages/black-week). Countdown bis Mo 23.11.2026 10:30 Uhr (Europe/Berlin). -->
+<style>
+  .bw{--ink:#0E0A04;--yel:#FDBD13;--ora:#FF7500;--water:#E3F2FB;font-family:Poppins,Arial,Helvetica,sans-serif;color:var(--ink);max-width:720px;margin:0 auto;padding:0 16px 48px}
+  .bw-hero{background:var(--ink);color:#fff;border-radius:20px;padding:40px 24px;text-align:center}
+  .bw-kicker{display:inline-block;background:var(--yel);color:var(--ink);font-weight:700;font-size:13px;letter-spacing:2px;text-transform:uppercase;padding:6px 14px;border-radius:999px}
+  .bw-h1{font-size:clamp(30px,6vw,46px);line-height:1.05;font-weight:800;margin:18px 0 10px}
+  .bw-h1 em{color:var(--yel);font-style:normal}
+  .bw-sub{font-size:17px;opacity:.9;margin:0 0 26px}
+  .bw-cd{display:flex;justify-content:center;gap:10px;margin:0 0 8px}
+  .bw-cd div{background:var(--yel);color:var(--ink);border-radius:14px;min-width:68px;padding:12px 6px}
+  .bw-cd b{display:block;font-size:30px;line-height:1}
+  .bw-cd span{font-size:11px;text-transform:uppercase;letter-spacing:1px}
+  .bw-cdlabel{font-size:13px;opacity:.8;margin:0 0 26px}
+  .bw-form{background:#fff;color:var(--ink);border-radius:16px;padding:20px;text-align:left}
+  .bw-form h2{font-size:20px;margin:0 0 6px}
+  .bw-form p{margin:0 0 14px;font-size:14px;color:#444}
+  .bw-form input{width:100%;box-sizing:border-box;border:2px solid var(--ink);border-radius:10px;padding:13px 14px;font-size:16px;margin-bottom:10px}
+  .bw-btn{display:block;width:100%;box-sizing:border-box;background:var(--ink);color:#fff;border:0;border-radius:999px;padding:16px;font-size:16px;font-weight:700;cursor:pointer;text-align:center;text-decoration:none}
+  .bw-btn.yel{background:var(--yel);color:var(--ink)}
+  .bw-ok{display:none;background:var(--water);border-radius:12px;padding:16px;font-weight:600}
+  .bw-fine{font-size:11px;color:#777;margin:10px 0 0}
+  .bw-prices{margin:36px 0 0}
+  .bw-prices h2{font-size:26px;font-weight:800;margin:0 0 6px}
+  .bw-prices p{margin:0 0 18px;color:#444}
+  .bw-row{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid #e6e6e6;font-size:15px}
+  .bw-row s{color:#999;margin-right:8px}
+  .bw-row b{font-size:18px}
+  .bw-tag{display:inline-block;background:var(--yel);font-size:12px;font-weight:700;padding:3px 8px;border-radius:6px;margin-left:8px}
+  .bw-usp{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:32px 0 0;text-align:center}
+  .bw-usp div{background:var(--water);border-radius:14px;padding:16px 10px;font-size:13px}
+  .bw-usp b{display:block;font-size:15px;margin-bottom:4px}
+  @media (max-width:480px){.bw-usp{grid-template-columns:1fr}.bw-cd div{min-width:58px}.bw-cd b{font-size:24px}}
+</style>
+
+<div class="bw" id="bw">
+  <section class="bw-hero">
+    <span class="bw-kicker">Black Week 2026</span>
+    <h1 class="bw-h1">Bis zu <em>–42&nbsp;%</em> auf offizielle Schwimmabzeichen.</h1>
+    <p class="bw-sub">VIPs shoppen 24&nbsp;Stunden früher. Trag dich ein und sei am Montag als Erste:r dabei.</p>
+
+    <div id="bw-live-wrap">
+      <div class="bw-cd" id="bw-cd">
+        <div><b id="cd-d">–</b><span>Tage</span></div>
+        <div><b id="cd-h">–</b><span>Std</span></div>
+        <div><b id="cd-m">–</b><span>Min</span></div>
+        <div><b id="cd-s">–</b><span>Sek</span></div>
+      </div>
+      <p class="bw-cdlabel" id="bw-cdlabel">VIP-Zugang öffnet Montag, 23.11., um 10:30&nbsp;Uhr</p>
+    </div>
+
+    <div class="bw-form" id="bw-form-wrap">
+      <h2>Auf die VIP-Liste</h2>
+      <p>Du bekommst am Montag um 10:30&nbsp;Uhr den Link zu den Black-Week-Preisen – einen Tag vor allen anderen.</p>
+      <form id="bw-form" novalidate>
+        <input type="text" id="bw-fn" placeholder="Vorname (optional)" autocomplete="given-name">
+        <input type="email" id="bw-email" placeholder="Deine E-Mail-Adresse" autocomplete="email" required>
+        <button class="bw-btn yel" type="submit" id="bw-submit">Ich will früher rein</button>
+      </form>
+      <div class="bw-ok" id="bw-ok">Du bist drin! Am Montag um 10:30&nbsp;Uhr bekommst du deinen VIP-Link per E-Mail.</div>
+      <p class="bw-fine">Mit dem Eintragen meldest du dich für unseren Newsletter an. Abmeldung jederzeit über den Link in jeder E-Mail.</p>
+    </div>
+
+    <a class="bw-btn yel" id="bw-shop" href="/collections/black-week" style="display:none;margin-top:14px">Jetzt zu den Black-Week-Preisen</a>
+  </section>
+
+  <section class="bw-prices">
+    <h2>Das kommt auf dich zu.</h2>
+    <p>Die Black-Week-Preise gelten ab dem ersten Stück – ideal für Vereine, Schwimmschulen und Familien. Aktion bis Dienstag, 01.12., 23:59&nbsp;Uhr.</p>
+    <div class="bw-row"><span>Seepferdchen Abzeichen (Rollenware)<span class="bw-tag">–31 %</span></span><span><s>0,85 €</s><b>0,59 €</b></span></div>
+    <div class="bw-row"><span>Deutscher Schwimmpass<span class="bw-tag">–33 %</span></span><span><s>1,00 €</s><b>0,67 €</b></span></div>
+    <div class="bw-row"><span>Seepferdchen Urkunde<span class="bw-tag">–27 %</span></span><span><s>0,60 €</s><b>0,44 €</b></span></div>
+    <div class="bw-row"><span>Set Seepferdchen easy plus + Urkunde<span class="bw-tag">–42 %</span></span><span><s>1,95 €</s><b>1,12 €</b></span></div>
+    <div class="bw-row"><span>Bronze / Silber / Gold (Rollenware)<span class="bw-tag">–31 %</span></span><span><s>0,85 €</s><b>0,59 €</b></span></div>
+    <div class="bw-row"><span>Set Bronze easy plus + Schwimmpass<span class="bw-tag">–40 %</span></span><span><s>2,25 €</s><b>1,34 €</b></span></div>
+  </section>
+
+  <section class="bw-usp">
+    <div><b>Offiziell</b>Abzeichen und Urkunden nach Deutscher Prüfungsordnung</div>
+    <div><b>Seit 25 Jahren</b>Versand direkt aus unserem Lager in Nagold</div>
+    <div><b>Für Vereine</b>Kauf auf Rechnung, Rollenware für große Mengen</div>
+  </section>
+</div>
+
+<script>
+(function(){
+  var target = new Date('2026-11-23T10:30:00+01:00').getTime();
+  var elD=document.getElementById('cd-d'),elH=document.getElementById('cd-h'),elM=document.getElementById('cd-m'),elS=document.getElementById('cd-s');
+  function pad(n){return (n<10?'0':'')+n}
+  function tick(){
+    var diff = target - Date.now();
+    if (diff <= 0) {
+      document.getElementById('bw-live-wrap').innerHTML = '<p class="bw-cdlabel" style="font-size:20px;font-weight:700;opacity:1">Die Black Week ist live.</p>';
+      document.getElementById('bw-form-wrap').style.display = 'none';
+      document.getElementById('bw-shop').style.display = 'block';
+      return;
+    }
+    var s=Math.floor(diff/1000), d=Math.floor(s/86400), h=Math.floor(s%86400/3600), m=Math.floor(s%3600/60), sec=s%60;
+    elD.textContent=d; elH.textContent=pad(h); elM.textContent=pad(m); elS.textContent=pad(sec);
+    setTimeout(tick, 1000);
+  }
+  tick();
+
+  var form=document.getElementById('bw-form');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var email=document.getElementById('bw-email').value.trim(), fn=document.getElementById('bw-fn').value.trim();
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ document.getElementById('bw-email').focus(); return; }
+    var btn=document.getElementById('bw-submit'); btn.disabled=true; btn.textContent='Einen Moment …';
+    var attrs={email:email, subscriptions:{email:{marketing:{consent:'SUBSCRIBED'}}}};
+    if(fn){ attrs.first_name=fn; }
+    fetch('https://a.klaviyo.com/client/subscriptions/?company_id=Xrfryr',{
+      method:'POST',
+      headers:{'Content-Type':'application/vnd.api+json','revision':'2024-10-15'},
+      body:JSON.stringify({data:{type:'subscription',attributes:{custom_source:'Black Week 2026 LP',profile:{data:{type:'profile',attributes:attrs}}},relationships:{list:{data:{type:'list',id:'Syrjty'}}}}})
+    }).then(function(r){
+      if(r.status>=200 && r.status<300){ form.style.display='none'; document.getElementById('bw-ok').style.display='block'; }
+      else { throw new Error('status '+r.status); }
+    }).catch(function(){ btn.disabled=false; btn.textContent='Nochmal versuchen'; });
+  });
+})();
+</script>
