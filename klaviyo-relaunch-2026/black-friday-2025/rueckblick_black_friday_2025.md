@@ -1,6 +1,6 @@
 # Black Friday / Cyber Monday 2025 – So lief die Kampagne (pimpertz.de)
 
-Version für Team/Externe: ohne Umsatz-, Stück- und Bestellzahlen.
+Rückblick für das Team – Aufbau, Fahrplan, Rabattlogik und Learnings.
 
 ## 1. Idee und Rahmen
 
