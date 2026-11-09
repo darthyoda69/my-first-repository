@@ -99,7 +99,9 @@ Originale unverändert, Arbeit nur auf Kopien `pimpertz · <Kit> · 2026`.
 |---|---|---|
 | Sale (Black Week, 28 Mails) | DAHaQcel-Qk | in Arbeit (VIP-Start auf Mo 23.11. 10:30 korrigiert) |
 | Bite (Flows, 8 Mails) | DAHaQd2Zp74 | fertig, geprüft |
-| Pulse / Ease / Muse / Spa | – | in Arbeit |
+| Spa (Wasser-Kit, 8 Mails) | DAHaQdmHh28 | fertig, geprüft; Feinschliff S. 6/9 läuft |
+| Muse (Premium/Glamour, 8 Mails) | DAHaQQEoZo8 | fertig; Hero-Überlappung S. 6 wird gefixt |
+| Pulse / Ease | – | in Arbeit |
 
 Bildwelt: 12 Higgsfield-Motive (`pz26_*`) + Logo + 7 Produkt-Freisteller in Canva hochgeladen.
 
