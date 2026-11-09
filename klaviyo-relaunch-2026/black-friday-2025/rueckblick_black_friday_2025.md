@@ -37,11 +37,11 @@ Design der Launch-Mail: schwarzer Header mit Logo, Hero-Bild „Seepferdchen-Box
 3. Black Friday selbst, Cyber Monday und „Last Chance“ waren unterbespielt (nur eine Mail an ein kleines Segment, keine CM-Mail).
 4. A/B am BF-Tag: die Variante mit mehr Produkt und Preis im Bild gewann klar bei Klicks und Conversion.
 5. Abmelderaten pro Mail waren spürbar → 2026 mit Sunset-Ausschlüssen senden.
-6. „Bis zu 40 %“ war die Headline, die tatsächliche Rabatttiefe lag darunter – 2026 ehrlicher kommunizieren („bis zu −42 %“ ist dieses Jahr rechnerisch echt).
+6. „Bis zu 40 %“ war die Headline, die tatsächliche Rabatttiefe lag darunter – 2026 Headline höchstens „bis zu −40 %“ (Starterkit Pimpi), im Hero immer die echten Kernartikel-Preise zeigen.
 
 ## 5. Plan 2026 (Kurzfassung)
 
 - Di 10.11. Plaintext-„Leak“-Mail → Landingpage `/pages/black-week` mit Countdown + VIP-Eintrag
 - Mo 23.11. 10:30 VIP-Zugang (24 h früher) · Di 24.11. Launch alle · Fr 27.11. Black Friday (Vereine/Jahresbedarf) · Mo 30.11. Cyber Monday · Di 01.12. Last Chance
-- Preise: Rolle 0,59 €, Pass 0,67 €, Urkunde 0,44 €, Set Seepferdchen 1,12 €, Set Bronze 1,34 €
+- Preise: exakt die Konditionsstruktur 2025 (Rolle 0,61 €, Pass 0,66 €, Urkunde 0,46 €, Set Seepferdchen 1,66 €, Set Bronze 1,86 €) – siehe `konditionen_2025_je_produktlinie.md`
 - Alle Mails on-brand aus den neuen Canva-Kits, Flows parallel als A/B

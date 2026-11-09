@@ -16,16 +16,22 @@ Stand 09.11.2026. Ansprechpartner: Leon.
 
 ## 2. Preise Black Week 2026 (brutto, gelten ab dem 1. Stück)
 
+**Entscheidung 09.11.2026: 2026 läuft mit exakt der gleichen Konditionsstruktur wie 2025.** Vollständige Liste je Produktlinie: `konditionen_2025_je_produktlinie.md` (die Spalte „Black Week“ dort ist der Aktionspreis 2026).
+
+Die sechs Hero-Artikel (Landingpage, Teaser-Mail, Hero der Design-Mails):
+
 | SKU | Artikel | Normalpreis | Black Week | Rabatt |
 |---|---|---:|---:|---:|
-| 1301 | Seepferdchen Abzeichen (Rollenware) | 0,85 € | **0,59 €** | −31 % |
-| 1360 | Deutscher Schwimmpass | 1,00 € | **0,67 €** | −33 % |
-| 1350 | Seepferdchen Urkunde | 0,60 € | **0,44 €** | −27 % |
-| 1350SP | Set Seepferdchen easy plus + Urkunde | 1,95 € | **1,12 €** | −42 % |
-| 1311 / 1312 / 1313 | Bronze / Silber / Gold (Rollenware) | 0,85 € | **0,59 €** | −31 % |
-| 1361SP | Set Bronze easy plus + Schwimmpass | 2,25 € | **1,34 €** | −40 % |
+| 1301 | Seepferdchen Abzeichen (Rollenware) | 0,85 € | **0,61 €** | −28 % |
+| 1360 | Deutscher Schwimmpass | 1,00 € | **0,66 €** | −34 % |
+| 1350 | Seepferdchen Urkunde | 0,60 € | **0,46 €** | −25 % |
+| 1350SP | Set Seepferdchen easy plus + Urkunde | 1,95 € | **1,66 €** | −15 % |
+| 1311 / 1312 / 1313 | Bronze / Silber / Gold (Rollenware) | 0,85 € | **0,61 €** | −28 % |
+| 1361SP | Set Bronze easy plus + Schwimmpass | 2,25 € | **1,86 €** | −17 % |
 
-Headline-Claim: **„Bis zu −42 %“** (nie höher). Weitere Artikel folgen, sobald freigegeben. Streichpreise müssen dem niedrigsten Preis der letzten 30 Tage entsprechen (§ 11 PAngV) – also vor dem 23.11. keine Preise senken.
+Struktur: Kern-Rollenware + Pass + Urkunden −25 bis −34 % · Sets −15 bis −20 % · Easy −8 % · kinderleicht −5 bis −9 % · easy plus 0 bis −5 % · Glamour −15 bis −20 % · Seeräuber/Bobby/Stella/Pimpi (außer Starterkit), 50er-Pakete, Zubehör kein Rabatt.
+
+Headline-Claim: **„Bis zu −40 %“** (gedeckt durch Starterkit Pirat Pimpi −40 %, Regenbogen-Seepferdchen −38 %); im Hero immer die echten Kernartikel-Preise zeigen. Streichpreise müssen dem niedrigsten Preis der letzten 30 Tage entsprechen (§ 11 PAngV) – also vor dem 23.11. keine Preise senken.
 
 Mechanik wie 2025: **Preise werden im Shop gesenkt, keine Rabattcodes.**
 
@@ -69,6 +75,6 @@ Mechanik wie 2025: **Preise werden im Shop gesenkt, keine Rabattcodes.**
 5. **Nach dem Launch war Stille – ein Fehler.** Cyber Monday ohne Mail, kein „Last Chance“, am BF-Tag nur eine Mail an ein kleines Segment. Die Nachfrage war noch da. → 2026: Fr/Mo/Di je eine Mail mit eigenem Angle (Vereine, Cyber Monday, Ende um 23:59).
 6. **Plaintext/persönlich für Teaser, Design für Angebote.** Persönliche, textbasierte Mails erzeugen Neugier und Antworten; die Angebots-Mails brauchen das volle On-brand-Design mit Preisen. → Di 10.11. und Do 12.11. Plaintext von „Anna“, ab 23.11. Design-Mails aus dem Sale-Kit.
 7. **Hygiene:** Abmeldungen entstehen vor allem bei den breiten Sendungen an alle Listen. → Immer mit Sunset-Ausschlüssen senden, Engaged-Segmente zuerst, Nicht-Öffner als Follow-up.
-8. **Rabatt-Kommunikation ehrlich halten.** 2025 war „bis zu 40 %“ Headline, die meisten Artikel lagen darunter. → 2026 ist „bis zu −42 %“ rechnerisch echt (Set Seepferdchen); die Kernartikel liegen bei −27 bis −33 %. Das sagen wir so, keine aufgeblasenen Prozentzahlen.
+8. **Rabatt-Kommunikation ehrlich halten.** 2025 war „bis zu 40 %“ Headline, die meisten Artikel lagen darunter. → 2026 darf „bis zu −40 %“ Headline bleiben (Starterkit Pimpi, Regenbogen-Seepferdchen), aber überall die echten Kernartikel-Preise zeigen (−28 bis −34 %), keine aufgeblasenen Prozentzahlen auf Produkten.
 
 Details im Rückblick `rueckblick_black_friday_2025.md`, Preise 2025 je Artikel in `preisliste_black_friday_2025.csv`.

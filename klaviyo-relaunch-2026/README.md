@@ -56,13 +56,13 @@ Einbau (Klaviyo-UI, da die API keine Flows editiert): Flow öffnen → Mail → 
 
 ## 4. Black Week 2026 – Fahrplan
 
-Preislogik (Vorgabe): **SchwimmWelten-Preis − 25 %**, nie höher als unser aktueller Preis → `black-week-2026-preise.csv`.
+Preislogik (Entscheidung 09.11.2026): **exakt die Konditionsstruktur von 2025** je Produktlinie → `black-week-2026-preise.csv` bzw. `black-friday-2025/konditionen_2025_je_produktlinie.md`. Hero-Artikel: Seepferdchen Rolle 0,61 € · Schwimmpass 0,66 € · Urkunde 0,46 € · Set Seepferdchen 1,66 € · Bronze/Silber/Gold Rolle 0,61 € · Set Bronze 1,86 €. Headline „bis zu −40 %“.
 
 | Datum | Mail | Zielgruppe | Ziel |
 |---|---|---|---|
 | **Di 10.11.** | BW26_01 „Oops – interne Mail“ | alle Engaged | Neugier, VIP-Liste über Klick aufbauen |
 | Do 12.11. | Auto-Follow-up an Nicht-Öffner (Klaviyo) | Nicht-Öffner | Reichweite |
-| **Mo 23.11. 12:00** | BW26_02 VIP Early Access | VIP-Liste + Klicker der Oops-Mail + Käufer 2025 | Wiederholung des 44-k€-Erfolgs |
+| **Mo 23.11. 10:30** | BW26_02 VIP Early Access | VIP-Liste + Klicker der Oops-Mail + Käufer 2025 | Wiederholung des stärksten Tages 2025 |
 | Di 24.11. | BW26_03 Launch für alle | alle Engaged | Volumen |
 | Fr 27.11. | BW26_04 Black Friday – Vereine/Jahresbedarf | B2B + Großbesteller | AOV |
 | Mo 30.11. | BW26_05 Cyber Monday | alle Engaged, ohne Käufer der Woche | Nachzügler |
@@ -73,7 +73,7 @@ Preislogik (Vorgabe): **SchwimmWelten-Preis − 25 %**, nie höher als unser akt
 1. **„ab 500 Stück“**: SchwimmWelten zeigt öffentlich nur Einzelpreise (Shop-Export 02.04.26 + Live-Stichprobe: Aufnäher 0,79 €, Urkunde+Aufnäher 1,29 €). Annahme: BW-Preis gilt **ab 1 Stück**. Wenn er nur **ab 500 Stück** gelten soll → Mails 02–06 + FAQ anpassen und als Mengenrabatt in Shopify umsetzen.
 2. **Marge**: In Shopify sind keine Einkaufspreise (unitCost) hinterlegt → Marge der BW-Preise nicht geprüft.
 3. **Preisangaben (§ 11 PAngV)**: Durchgestrichene Preise müssen der niedrigste Preis der letzten 30 Tage sein. Aktuelle Preise vor dem 23.11. nicht senken.
-4. **Shopify**: Collection `/collections/black-week` und VIP-Seite `/pages/black-week-vip` existieren noch nicht (Links in Mails). Preisumstellung zeitgesteuert (z. B. Mo 23.11. 12:00).
+4. **Shopify**: Collection `/collections/black-week` existiert noch nicht (Link in Mails 02–06). Landingpage `/pages/black-week` ist als Entwurf angelegt (Page 172227297544), noch unveröffentlicht. Preisumstellung Mo 23.11. 10:30, Rückstellung Di 01.12. 23:59.
 5. **Claims prüfen**: „Kauf auf Rechnung für Vereine“, Welcome-Code `WILLKOMMEN10` muss in Shopify existieren.
 6. **Hygiene vor BW**: Sunset-Flow aktivieren, Suppressions prüfen (Checkout-Mail 2 nur 80 % Zustellung), Kampagnen immer mit Ausschluss „Sunset Suppressed (Auto)“ + „Sunset Liste/Exclude E-Mail“.
 

@@ -1,11 +1,107 @@
-sku;artikel_pimpertz;preis_aktuell_eur;schwimmwelten_pendant;schwimmwelten_preis_eur;bw26_preis_eur (=SW x 0,75; nie über eigenem Preis);rabatt_vs_aktuell;oe_bf2025_realisiert_eur (Shopify 17.11.-02.12.25)
-1301;Seepferdchen Abzeichen (Rollenware);0,85;Frühschwimmer Seepferdchen Aufnäher;0,79;0,59;-31%;0,53
-1350;Seepferdchen Urkunde Anfängerzeugnis;0,60;Frühschwimmer Seepferdchen Urkunde;0,59;0,44;-27%;0,40
-1301P;Seepferdchen zum Aufbügeln (easy plus);1,50;Frühschwimmer Seepferdchen Aufbügler;0,99;0,74;-51%;1,27
-1350SP;Set Seepferdchen easy plus + Urkunde;1,95;Frühschwimmer Seepferdchen (Urkunde und Aufbügler);1,49;1,12;-43%;1,49
-1360;Deutscher Schwimmpass;1,00;Deutsches Schwimmabzeichen Schwimmpass;0,89;0,67;-33%;0,59
-1311/1312/1313;Bronze/Silber/Gold (Rollenware);0,85;DSA Bronze/Silber/Gold Aufnäher;0,79;0,59;-31%;0,53 (Bronze)
-1311P/1312P/1313P;Bronze/Silber/Gold easy plus (Aufbügeln);1,50;DSA Bronze/Silber/Gold Aufbügler;0,99;0,74;-51%;n/a
-1361SP;Set Bronze easy plus + Schwimmpass;2,25;DSA Bronze (Aufbügler) mit Pass;1,79;1,34;-40%;1,64
-1304P;Trixi zum Aufbügeln (easy plus);1,50;Seehund Trixi-Aufbügler;1,39;1,04;-31%;n/a
-1303;Trixi Urkunde;0,50;Seehund Trixi-Urkunde;0,99;0,50 (kein BW-Preis: eigener Preis bereits günstiger);0%;n/a
+sku;artikel;normalpreis_brutto;black_week_2026_brutto;rabatt
+1301;Seepferdchen Abzeichen (Rollenware);0,85;0,61;-28%
+13011;Seepferdchen Easy (lasergeschnitten);1,25;1,15;-8%
+1301P;Seepferdchen easy plus;1,50;1,50;0%
+1301K;Seepferdchen kinderleicht;1,50;1,37;-9%
+1350;Seepferdchen Urkunde;0,60;0,46;-25%
+1350SP;Set Seepferdchen easy plus + Urkunde;1,95;1,66;-15%
+1350SK;Set Seepferdchen kinderleicht + Urkunde;1,95;1,66;-15%
+1301GW;Seepferdchen Glamour Weiß;2,00;1,62;-19%
+1301GS;Seepferdchen Glamour Schwarz;2,00;1,62;-19%
+1301RP;Regenbogen-Seepferdchen easy plus;2,00;1,25;-38%
+13012;Seepferdchen Neon (Easy);1,25;1,15;-8%
+13013;Seepferdchen Deutschland (Easy);1,25;1,25;0%
+13011 - 50;Seepferdchen Easy 50er Staffelpaket;57,50;57,50;0%
+1311;Bronze (Rollenware);0,85;0,61;-28%
+1312;Silber (Rollenware);0,85;0,61;-28%
+1313;Gold (Rollenware);0,85;0,61;-28%
+13111;Bronze Easy;1,25;1,15;-8%
+13121;Silber Easy;1,25;1,15;-8%
+13131;Gold Easy;1,25;1,15;-8%
+1311P;Bronze easy plus;1,50;1,42;-5%
+1312P;Silber easy plus;1,50;1,47;-2%
+1313P;Gold easy plus;1,50;1,50;0%
+1311K;Bronze kinderleicht;1,50;1,43;-5%
+1312K;Silber kinderleicht;1,50;1,43;-5%
+1313K;Gold kinderleicht;1,50;1,43;-5%
+1311G;Bronze Glamour;2,00;1,68;-16%
+1312G;Silber Glamour;2,00;1,71;-15%
+1313G;Gold Glamour;2,00;1,60;-20%
+1360;Deutscher Schwimmpass;1,00;0,66;-34%
+1361SP;Set Bronze easy plus + Schwimmpass;2,25;1,86;-17%
+1362SP;Set Silber easy plus + Schwimmpass;2,25;1,80;-20%
+1363SP;Set Gold easy plus + Schwimmpass;2,25;1,80;-20%
+1361SK;Set Bronze kinderleicht + Schwimmpass;2,25;1,80;-20%
+1362SK;Set Silber kinderleicht + Schwimmpass;2,25;1,80;-20%
+1363SK;Set Gold kinderleicht + Schwimmpass;2,25;1,80;-20%
+136112SP;Set Bronze + Silber + Schwimmpass (easy plus);3,60;2,95;-18%
+136112SK;Set Bronze + Silber + Schwimmpass (kinderleicht);3,60;2,95;-18%
+13611213SP;Set Bronze + Silber + Gold + Schwimmpass (easy plus);4,95;3,95;-20%
+13611213SK;Set Bronze + Silber + Gold + Schwimmpass (kinderleicht);4,95;3,95;-20%
+136150;50er-Paket Bronze Rollenware + 50 Pässe;77,50;77,50;0%
+136250;50er-Paket Silber Rollenware + 50 Pässe;77,50;77,50;0%
+136350;50er-Paket Gold Rollenware + 50 Pässe;77,50;77,50;0%
+1361S50;50er-Paket Bronze Easy + 50 Pässe;82,50;82,50;0%
+1362S50;50er-Paket Silber Easy + 50 Pässe;82,50;82,50;0%
+1363S50;50er-Paket Gold Easy + 50 Pässe;82,50;82,50;0%
+1361SP50;50er-Paket Bronze easy plus + 50 Pässe;90,00;90,00;0%
+1362SP50;50er-Paket Silber easy plus + 50 Pässe;90,00;90,00;0%
+1363SP50;50er-Paket Gold easy plus + 50 Pässe;90,00;90,00;0%
+1361SK50;50er-Paket Bronze kinderleicht + 50 Pässe;90,00;90,00;0%
+1362SK50;50er-Paket Silber kinderleicht + 50 Pässe;90,00;90,00;0%
+1363SK50;50er-Paket Gold kinderleicht + 50 Pässe;90,00;90,00;0%
+3001;Frosch (Rollenware);0,75;0,63;-16%
+30011;Frosch Easy;1,25;1,15;-8%
+3001K;Frosch kinderleicht;1,50;1,43;-5%
+3000;Frosch Urkunde;0,50;0,37;-26%
+3000SK;Set Frosch kinderleicht + Urkunde;1,80;1,80;0%
+1306;Seeräuber (Rollenware);1,15;1,15;0%
+1306P;Seeräuber easy plus;1,60;1,60;0%
+1305;Seeräuber Urkunde;0,90;0,90;0%
+1305SP;Set Seeräuber easy plus + Urkunde;2,50;2,40;-4%
+6001;Bobby (Rollenware);1,15;1,15;0%
+6001P;Bobby easy plus;1,60;1,60;0%
+6000;Bobby Urkunde;0,90;0,90;0%
+6000SP;Set Bobby easy plus + Urkunde;2,50;2,40;-4%
+2001;Seestern Stella Easy;1,15;1,15;0%
+2001K;Seestern Stella kinderleicht;1,50;1,50;0%
+2000;Seestern Stella Urkunde;0,90;0,90;0%
+2000SK;Set Seestern Stella kinderleicht + Urkunde;2,30;2,10;-9%
+13081;Pirat Pimpi Easy;1,15;1,15;0%
+1308K;Pirat Pimpi kinderleicht;1,50;1,50;0%
+1307;Pirat Pimpi Urkunde;0,90;0,90;0%
+1307SK;Set Pirat Pimpi kinderleicht + Urkunde;2,30;2,10;-9%
+5000;Starterkit Pirat Pimpi;6,95;4,17;-40%
+1304;Trixi (Rollenware);0,85;0,62;-27%
+13041;Trixi Easy;1,25;1,16;-7%
+1304P;Trixi easy plus;1,50;1,42;-5%
+1303;Trixi Urkunde;0,50;0,35;-30%
+1303SP;Set Trixi easy plus + Urkunde;1,90;1,62;-15%
+130410;10er-Set Trixi + Urkunde;16,00;16,00;0%
+2301;Stundenschwimmer 1 h (Rollenware);0,85;0,60;-29%
+2302;Stundenschwimmer 1,5 h (Rollenware);0,85;0,60;-29%
+2303;Stundenschwimmer 2 h (Rollenware);0,85;0,60;-29%
+23011;Stundenschwimmer 1 h Easy;1,25;1,15;-8%
+23021;Stundenschwimmer 1,5 h Easy;1,25;1,15;-8%
+23031;Stundenschwimmer 2 h Easy;1,25;1,15;-8%
+2301G;Stundenschwimmer 1 h Glamour;1,80;1,20;-33%
+2302G;Stundenschwimmer 1,5 h Glamour;1,80;1,20;-33%
+2303G;Stundenschwimmer 2 h Glamour;1,80;1,20;-33%
+2300;Stundenschwimmer Urkunde;0,50;0,35;-30%
+7001K;Lele Pahu Bronze kinderleicht;2,00;1,39;-31%
+7002K;Lele Pahu Silber kinderleicht;2,00;1,39;-31%
+7003K;Lele Pahu Gold kinderleicht;2,00;1,39;-31%
+7000;Lele Pahu Zertifikat;1,20;0,80;-33%
+7001SK;Set Lele Pahu Bronze + Urkunde;3,00;2,10;-30%
+700123SK;Set Lele Pahu Bronze + Silber + Gold + Urkunde;6,50;4,90;-25%
+4000;Seepferdchen Schlüsselanhänger;2,50;2,50;0%
+4010;Seepferdchen Schlüsselanhänger 10er Set;22,00;22,00;0%
+1301T;Hauttattoo Seepferdchen Gold;1,50;1,50;0%
+13010T;Hauttattoo Seepferdchen Gold 10er Set;10,00;10,00;0%
+13014T;Hauttattoo Seepferdchen 10er Set (Schwarz/Rot/Gold);12,99;12,99;0%
+130140T;Hauttattoo 10er Set Sterne;12,99;12,99;0%
+13030;Seepferdchen Konfetti 10er Set;10,50;10,50;0%
+151;Kampfrichterzettel Block;0,95;0,95;0%
+110;Startkarten 1000 Stück;32,00;32,00;0%
+11001;Startkarten Einzelblätter blanko;48,00;48,00;0%
+5003;Aktion unter die Haube Set;19,50;19,50;0%

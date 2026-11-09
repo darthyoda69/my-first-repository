@@ -228,17 +228,17 @@ T["FLOW_PostPurchase_CrossSell_Challenger"] = ("Das nächste Abzeichen wartet sc
 
 # ============ BLACK WEEK 2026
 BW_PRICES = [  # (key, Name, BW-Preis, Normalpreis)
-    ("seep_rolle", "Seepferdchen Rollenware", "0,59 €", "0,85 €"),
-    ("pass", "Deutscher Schwimmpass", "0,67 €", "1,00 €"),
-    ("seep_set", "Seepferdchen-Set easy plus + Urkunde", "1,12 €", "1,95 €"),
+    ("seep_rolle", "Seepferdchen Rollenware", "0,61 €", "0,85 €"),
+    ("pass", "Deutscher Schwimmpass", "0,66 €", "1,00 €"),
+    ("seep_set", "Seepferdchen-Set easy plus + Urkunde", "1,66 €", "1,95 €"),
 ]
 BW_PRICES_2 = [
-    ("urkunde", "Seepferdchen Urkunde", "0,44 €", "0,60 €"),
-    ("bronze_rolle", "Bronze/Silber/Gold Rollenware", "0,59 €", "0,85 €"),
-    ("bronze_set", "Bronze-Set easy plus + Pass", "1,34 €", "2,25 €"),
+    ("urkunde", "Seepferdchen Urkunde", "0,46 €", "0,60 €"),
+    ("bronze_rolle", "Bronze/Silber/Gold Rollenware", "0,61 €", "0,85 €"),
+    ("bronze_set", "Bronze-Set easy plus + Pass", "1,86 €", "2,25 €"),
 ]
 BW_URL = SHOP + "/collections/black-week"   # TODO: Collection in Shopify anlegen
-VIP_URL = SHOP + "/pages/black-week-vip"     # TODO: Landingpage oder Collection
+VIP_URL = SHOP + "/pages/black-week"         # Landingpage schaltet Mo 23.11. 10:30 um
 
 def bw_header() -> str:
     return header(INK)
@@ -253,14 +253,14 @@ T["BW26_01_Oops_Intern_Di_10-11"] = ("WG: Black Week Preise final – NICHT WEIT
 <p>anbei wie besprochen die finalen Black-Week-Preise. Ziel bleibt: <strong>die besten Preise des ganzen Jahres</strong> für unsere Kundinnen und Kunden – vor allem auf die großen Mengen, die Vereine und Schwimmschulen für die Saison brauchen.</p>
 <table role="presentation" width="100%" style="border:1px solid #ddd;font:400 13px/1.5 Arial,Helvetica,sans-serif;">
 <tr style="background:#f3f3f3;"><td style="padding:6px 8px;"><strong>Artikel</strong></td><td style="padding:6px 8px;"><strong>aktuell</strong></td><td style="padding:6px 8px;"><strong>Black Week</strong></td></tr>
-<tr><td style="padding:6px 8px;">Seepferdchen Rollenware</td><td style="padding:6px 8px;">0,85 €</td><td style="padding:6px 8px;"><strong>0,59 €</strong></td></tr>
-<tr><td style="padding:6px 8px;">Deutscher Schwimmpass</td><td style="padding:6px 8px;">1,00 €</td><td style="padding:6px 8px;"><strong>0,67 €</strong></td></tr>
-<tr><td style="padding:6px 8px;">Seepferdchen Urkunde</td><td style="padding:6px 8px;">0,60 €</td><td style="padding:6px 8px;"><strong>0,44 €</strong></td></tr>
-<tr><td style="padding:6px 8px;">Set Seepferdchen easy plus + Urkunde</td><td style="padding:6px 8px;">1,95 €</td><td style="padding:6px 8px;"><strong>1,12 €</strong></td></tr>
-<tr><td style="padding:6px 8px;">Bronze/Silber/Gold Rollenware</td><td style="padding:6px 8px;">0,85 €</td><td style="padding:6px 8px;"><strong>0,59 €</strong></td></tr>
-<tr><td style="padding:6px 8px;">Set Bronze easy plus + Pass</td><td style="padding:6px 8px;">2,25 €</td><td style="padding:6px 8px;"><strong>1,34 €</strong></td></tr>
+<tr><td style="padding:6px 8px;">Seepferdchen Rollenware</td><td style="padding:6px 8px;">0,85 €</td><td style="padding:6px 8px;"><strong>0,61 €</strong></td></tr>
+<tr><td style="padding:6px 8px;">Deutscher Schwimmpass</td><td style="padding:6px 8px;">1,00 €</td><td style="padding:6px 8px;"><strong>0,66 €</strong></td></tr>
+<tr><td style="padding:6px 8px;">Seepferdchen Urkunde</td><td style="padding:6px 8px;">0,60 €</td><td style="padding:6px 8px;"><strong>0,46 €</strong></td></tr>
+<tr><td style="padding:6px 8px;">Set Seepferdchen easy plus + Urkunde</td><td style="padding:6px 8px;">1,95 €</td><td style="padding:6px 8px;"><strong>1,66 €</strong></td></tr>
+<tr><td style="padding:6px 8px;">Bronze/Silber/Gold Rollenware</td><td style="padding:6px 8px;">0,85 €</td><td style="padding:6px 8px;"><strong>0,61 €</strong></td></tr>
+<tr><td style="padding:6px 8px;">Set Bronze easy plus + Pass</td><td style="padding:6px 8px;">2,25 €</td><td style="padding:6px 8px;"><strong>1,86 €</strong></td></tr>
 </table>
-<p style="padding-top:12px;">Start: <strong>Mo 23.11., 12:00 Uhr für die VIP-Liste</strong> (24h früher), ab Di 24.11. für alle. Rollenware war letztes Jahr unser Bestseller – bitte nichts vorher rausgeben.</p>
+<p style="padding-top:12px;">Start: <strong>Mo 23.11., 10:30 Uhr für die VIP-Liste</strong> (24h früher), ab Di 24.11. für alle. Rollenware war letztes Jahr unser Bestseller – bitte nichts vorher rausgeben.</p>
 <p>Danke &amp; Grüße<br>Anna</p>
 <div style="margin-top:22px;padding:16px;border-left:4px solid {YELLOW};background:#FFF8E1;color:{INK};">
 <strong>P.S. von uns an dich:</strong> Ups – die war eigentlich nicht für dich gedacht. 🙈 Aber jetzt, wo du sie schon gelesen hast:
@@ -273,14 +273,14 @@ T["BW26_02_VIP_EarlyAccess_Mo_23-11"] = ("Dein VIP-Zugang ist offen",
  bw_header() + hero("Nur für VIPs · 24h früher", "Black Week.<br><span style='color:" + YELLOW + "'>Für dich schon jetzt.</span>",
    "Die besten Preise des Jahres auf offizielle Schwimmabzeichen – bevor alle anderen sie sehen.", bg=INK, fg=WHITE, img=HERO_BOX)
  + button("VIP-Zugang öffnen", VIP_URL, bg=YELLOW, fg=INK, wrap_bg=INK)
- + text(f"<p>{GREETING}</p><p>wie versprochen: Du bist früher dran. Ab jetzt gelten die Black-Week-Preise für dich – morgen um 12 Uhr öffnen wir für alle. Tipp: Die <strong>Seepferdchen-Rollenware</strong> war letztes Jahr unser Black-Week-Bestseller.</p>", pad="34px 40px 0")
+ + text(f"<p>{GREETING}</p><p>wie versprochen: Du bist früher dran. Ab jetzt gelten die Black-Week-Preise für dich – morgen um 10:30 Uhr öffnen wir für alle. Tipp: Die <strong>Seepferdchen-Rollenware</strong> war letztes Jahr unser Black-Week-Bestseller.</p>", pad="34px 40px 0")
  + products(BW_PRICES) + products(BW_PRICES_2)
  + button("Jetzt zuschlagen", VIP_URL)
  + footer())
 
-T["BW26_03_Launch_Alle_Di_24-11"] = ("Black Week ist live: bis zu –42 % auf Schwimmabzeichen",
+T["BW26_03_Launch_Alle_Di_24-11"] = ("Black Week ist live: bis zu –40 % auf Schwimmabzeichen",
  "Die besten Preise des Jahres – solange der Vorrat reicht.",
- bw_header() + hero("Black Week 2026", "Bis zu <span style='color:" + YELLOW + "'>–42&nbsp;%</span> auf offizielle Schwimmabzeichen.",
+ bw_header() + hero("Black Week 2026", "Bis zu <span style='color:" + YELLOW + "'>–40&nbsp;%</span> auf offizielle Schwimmabzeichen.",
    "Seepferdchen, Schwimmpass, Urkunden &amp; Sets – so günstig wie nie.", bg=INK, fg=WHITE, img=HERO_DUO)
  + button("Zur Black Week", BW_URL, bg=YELLOW, fg=INK, wrap_bg=INK)
  + products(BW_PRICES) + products(BW_PRICES_2)
@@ -292,7 +292,7 @@ T["BW26_04_BlackFriday_Vereine_Fr_27-11"] = ("Black Friday: Abzeichen für die g
  "Für Vereine, Schulen und Schwimmschulen: jetzt den Jahresbedarf zum Bestpreis.",
  bw_header() + hero("Black Friday · Für Vereine &amp; Schwimmschulen", "Einmal bestellen. Die ganze Saison versorgt.",
    "Die Prüfungen 2027 kommen bestimmt – mit den Black-Friday-Preisen deckst du deinen Jahresbedarf jetzt am günstigsten.", bg=YELLOW, fg=INK)
- + text("<p><strong>Rechenbeispiel Schwimmschule:</strong> 500 Seepferdchen (Rollenware) + 500 Urkunden<br>Normal: <span style='text-decoration:line-through;'>725,00 €</span> → Black Friday: <strong>515,00 €</strong> – du sparst <strong>210,00 €</strong>.</p>", pad="30px 40px 0")
+ + text("<p><strong>Rechenbeispiel Schwimmschule:</strong> 500 Seepferdchen (Rollenware) + 500 Urkunden<br>Normal: <span style='text-decoration:line-through;'>725,00 €</span> → Black Friday: <strong>535,00 €</strong> – du sparst <strong>190,00 €</strong>.</p>", pad="30px 40px 0")
  + products(BW_PRICES)
  + button("Jahresbedarf sichern", BW_URL)
  + faq("Gut zu wissen", [
