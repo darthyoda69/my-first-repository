@@ -101,7 +101,8 @@ Originale unverändert, Arbeit nur auf Kopien `pimpertz · <Kit> · 2026`.
 | Bite (Flows, 8 Mails) | DAHaQd2Zp74 | fertig, geprüft |
 | Spa (Wasser-Kit, 8 Mails) | DAHaQdmHh28 | fertig, geprüft; Feinschliff S. 6/9 läuft |
 | Muse (Premium/Glamour, 8 Mails) | DAHaQQEoZo8 | fertig; Hero-Überlappung S. 6 wird gefixt |
-| Pulse / Ease | – | in Arbeit |
+| Pulse (Master-Stil, 8 Mails) | DAHaQYpgg4k | fertig, geprüft; Callout S. 8 wird gefixt |
+| Ease | – | in Arbeit |
 
 Bildwelt: 12 Higgsfield-Motive (`pz26_*`) + Logo + 7 Produkt-Freisteller in Canva hochgeladen.
 
