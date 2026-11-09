@@ -1,0 +1,17 @@
+Betreff: Ups – die Mail am Dienstag war nicht für dich
+Absender: Anna | pimpertz <anna@team.pimpertz.de>
+Versand: Do 12.11., vormittags, an alle Empfänger der Oops-Mail (optional nur Öffner)
+
+Hallo,
+
+am Dienstag ist dir eine interne Mail von mir in den Posteingang gerutscht. Die Black-Week-Preise waren eigentlich noch nicht für draußen gedacht.
+
+Zurückholen können wir sie nicht. Also machen wir es andersrum: Wer sie bekommen hat, darf als Erste:r rein. Trag dich hier ein, dann bekommst du am Montag um 10:30 Uhr den Zugang – 24 Stunden vor allen anderen:
+https://pimpertz.de/pages/black-week
+
+Danke fürs Verständnis. Und fürs Dichthalten.
+
+Anna
+
+{{ organization.name }} · {{ organization.full_address }}
+{% unsubscribe 'Abmelden' %}
