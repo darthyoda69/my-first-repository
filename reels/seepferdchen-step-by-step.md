@@ -18,7 +18,12 @@
 
 ---
 
-## Variante 1 – „Das Original“ (Hero-Reel)
+## Variante 1 – „Das Original“ (Hero-Reel, Extended ~30 Sek.)
+
+**Struktur:** 3 Akte, die immer absurder werden. Gleiches Pferd, gleiches Wasserglas, gleicher todernster Ton.
+Akt 1 baut das Seepferdchen → Akt 2 lässt das Seepferdchen **sein eigenes Seepferdchen machen** → Akt 3 Payoff mit echtem Kind.
+
+### Akt 1 – Bau dir ein Seepferdchen (0–8 Sek.)
 
 | # | Bild | Voiceover / Text |
 |---|------|------------------|
@@ -26,10 +31,37 @@
 | 2 | Hand legt es neben ein Lineal, Zoom-Effekt rein | „Mach es klein.“ |
 | 3 | Pferd wird in ein Wasserglas gesetzt | „Stell es ins Wasser.“ |
 | 4 | Glas, nichts passiert, 1 Sek. Stille | „Glückwunsch. Du hast ein Seepferdchen.“ |
-| 5 | Schnitt: Kind am Beckenrand, Mama/Papa hält Aufnäher hoch | „Oder du springst einfach rein, schwimmst 25 Meter und holst was aus dem Wasser.“ |
-| 6 | Close-up Abzeichen, Ding-Sound | **Text:** „Das echte gibt’s hier 👇“ |
 
-**Caption:** Seepferdchen in 4 einfachen Schritten. Schritt 5 ist leider Pflicht. 🐴💧
+### Akt 2 – Das Seepferdchen macht Seepferdchen (8–24 Sek.)
+
+| # | Bild | Voiceover / Text |
+|---|------|------------------|
+| 5 | Pferd wird aus dem Glas genommen, tropft | „Aber ein Seepferdchen ohne Seepferdchen ist kein richtiges Seepferdchen.“ |
+| 6 | Pferd auf dem Rand der Badewanne, Hand schubst es rein, Platsch in Zeitlupe | „Schritt eins der Prüfung: Sprung vom Beckenrand.“ |
+| 7 | Pferd treibt, wird mit einem Lineal durch die Wanne geschoben, Stoppuhr eingeblendet | „25 Meter schwimmen.“ **Text:** „(Wanne = 1,60 m. Also 16 Bahnen.)“ |
+| 8 | Zeitraffer, Pferd wird hin und her geschoben, Hand wird müde | *(nur Musik, kurz schneller)* |
+| 9 | Pferd liegt am Wannenboden neben einer 1-Cent-Münze, Hand holt beides hoch | „Gegenstand aus schultertiefem Wasser holen. Schulter vom Pferd. Passt.“ |
+| 10 | Pferd steht vor einem winzigen Zettel „BADEREGELN“ | „Baderegeln aufsagen.“ 2 Sek. Stille. „Es hat genickt. Zählt.“ |
+| 11 | Winziges Seepferdchen-Abzeichen wird mit Pinzette auf das Pferd geklebt | „Jetzt hat dein Seepferdchen ein Seepferdchen.“ |
+| 12 | Pferd mit Abzeichen, Blitzlicht, Ding-Sound | „Es ist jetzt ein Seepferdchen-Seepferdchen.“ |
+
+### Akt 3 – Payoff (24–30 Sek.)
+
+| # | Bild | Voiceover / Text |
+|---|------|------------------|
+| 13 | Schnitt: echtes Kind am Beckenrand, schaut skeptisch in die Kamera | „Dein Kind kann das auch. Ist sogar einfacher. Es ist schon klein.“ |
+| 14 | Kind springt, schwimmt, Eltern halten echten Aufnäher hoch | **Text:** „Prüfung geschafft? Das Abzeichen gibt's hier 👇“ |
+| 15 | Loop-Shot: zurück aufs trockene Pferd auf dem Tisch | „Nimm ein Pferd.“ *(springt nahtlos in Schritt 1)* |
+
+**Caption:** Seepferdchen in 4 einfachen Schritten. Danach muss das Seepferdchen leider noch sein Seepferdchen machen. 🐴💧
+
+**Warum das trägt:**
+- **Akt 2 ist der Verlängerer:** Die echten Prüfungsanforderungen werden 1:1 am Spielzeugpferd abgearbeitet. Das ist dieselbe Witz-Mechanik wie im Original, nur einmal weitergedreht. Jeder Schritt ist ein eigener kleiner Gag.
+- **„Seepferdchen-Seepferdchen“** ist der zitierbare Satz, der in den Kommentaren landet.
+- **„Es ist schon klein“** verbindet den Payoff zurück zu „Mach es klein“ aus Schritt 2.
+- **Loop-Ende** aufs trockene Pferd sorgt dafür, dass das Video nochmal läuft.
+
+**Kürzer schneiden (falls nötig, 20 Sek.):** Schritte 8 und 10 rausnehmen.
 
 ---
 
