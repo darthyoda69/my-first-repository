@@ -221,3 +221,32 @@ Die Nutzungsrichtlinie von Klaviyo verbietet irreführende Kopfzeilen und Betref
 | 5 | Kampagnenbericht der Oops-Mail auswerten | Claude | Fr 13.11. |
 | 6 | Checkout-Hinweis bei der Adresserhebung (§ 7 Abs. 3 Nr. 4) im Shopify-Checkout prüfen und ergänzen | Leon | Fr 20.11. |
 | 7 | Anwaltliche Kurzprüfung der Folgemails und der Fußzeile | Leon | Fr 20.11. |
+
+---
+
+## Update 12.11.2026, nachmittags: Neubewertung nach den Gegenmaßnahmen
+
+**Stand:**
+- Die Ups-Mail mit ehrlicher Auflösung liegt als Entwurf in Klaviyo (Kampagne `01M77VCKZZFY19XN9P0TDEH0WR`, Template `UyYyj3`). Geplant ist Fr 13.11., 10:15 Uhr, nach GO.
+- In der Fußzeile steht der Hinweis nach § 7 Abs. 3.
+- Die Einwilligungen stammen laut Leon aus dem Altshop. Der Nachweis muss aufbewahrt werden.
+
+| Nr. | Risiko | Vorher | Jetzt (Entwurf) | Nach Versand Fr + offene Punkte |
+|---|---|:-:|:-:|:-:|
+| R1 | Werbecharakter verschleiert | 9 | 9 | **6 GELB**: Die Oops-Mail bleibt in der Welt, wird aber nach 22 h offen aufgelöst. |
+| R2 | Einwilligung | 9 | 4 | **4 GRÜN**, wenn der Nachweis aus dem Altshop gesichert ist |
+| R3 | Folgemails verlängern die Täuschung | 12 | 9 | **4 GRÜN**: Die Ups-Mail löst auf, kein weiteres Oops-Format |
+| R4 | Klaviyo-Konto / Spam | 8 | 8 | **4 GRÜN**, wenn der Bericht morgen Spam unter 0,1 % zeigt |
+| R5 | VIP-Liste ohne Double-Opt-in | 6 | 6 | 6 GELB, bis Double-Opt-in und Datenschutzlink umgesetzt sind |
+| R6 | Headline „−40 % auf Schwimmabzeichen“ | 6 | 6 | 2 GRÜN nach Korrektur der Headline |
+| R8 | Ruf bei Vereinen und Institutionen | 6 | 6 | **4 GRÜN**: Ein Augenzwinkern statt eines Schweigens |
+
+**Neu erkannt:**
+- Die Ups-Mail schließt die VIP-Liste aus. Gerade wer sich wegen der Oops-Mail eingetragen hat, erfährt also nichts von der Auflösung. **Lösung:** Die VIP-Mail am 23.11. beginnt mit einem Satz zur Auflösung.
+- 14 Adressen von Testdiensten für Zustellbarkeit stehen in der Zielgruppe. Das ist kein Rechtsrisiko, sondern ein Thema für die Zustellbarkeit. Empfehlung: abmelden.
+
+**Gesamt:**
+- Heute: **GELB**. Die Kampagnenserie war ORANGE, ist es aber nicht mehr, weil die Folgemail entschärft ist.
+- Nach dem Versand am Freitag und den offenen Punkten: **GRÜN bis unteres GELB**.
+
+**Restrisiko:** Eine Abmahnung wegen der Oops-Mail selbst bleibt theoretisch möglich. Wettbewerbsrechtliche Ansprüche verjähren nach 6 Monaten ab Kenntnis (§ 11 UWG), also etwa bis Mai 2027. Die schnelle, offene Auflösung ist das stärkste Gegenargument.
