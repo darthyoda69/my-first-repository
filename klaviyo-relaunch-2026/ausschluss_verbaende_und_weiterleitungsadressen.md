@@ -67,3 +67,15 @@ Danach liest die API die Mitglieder des Segments aus, und daraus wird die vollst
 ## 5. Dauerhafter Schutz
 
 Segment **„Ausschluss · Verbände/SchwimmWelten“**: E-Mail enthält `schwimmwelten` ODER `bsvonline` ODER `svw-online` ODER `schwimmverband.nrw` ODER `lsv-sachsen` ODER `lsv-brandenburg` ODER `lsv-sh` ODER `berliner-schwimm-verband` ODER `@dsv.de`. Als Ausschluss in jede Kampagne. Damit sind auch künftige Neuanmeldungen aus den Verbänden abgedeckt.
+
+## 6. Empfänger der Oops-Mail nach Domain (Stand 12.11.2026 abends)
+
+11.691 Empfänger auf 2.409 Domains (vollständige Liste: `oops_empfaenger_domains_2026-11-12.csv`).
+
+- DLRG: 108 Empfänger, rund 100 Ortsgruppen und Bezirke (plus dlrg.de)
+- Wasserwacht und Rotes Kreuz: 64 (davon wasserwacht.bayern 30, brk.de 6)
+- Sportbünde und Verbände: ca. 14 (Kreis- und Stadtsportbünde, Sportjugend, LSB Sachsen-Anhalt, dguv.de, Schwimmverband Wuppertal). Keine Landesschwimmverbände, kein DSV, nichts mit „bfs“.
+- Schulen: ca. 360 (ohne Schwimmschulen). Kommunen, Bäder und Stadtwerke: über 200.
+- Kanzleien: 3 (dierlamm-rechtsanwaelte.com, heuvelslaw.com, rechtsanwalt-presch.de)
+- Testdienste für Zustellbarkeit (Seed-Adressen), 14 Empfänger: buyemailsoftware.com, deliverabble.com, deliverabilitylabs.com, emailreach.co, reputationwarmup.com, fastdirectorysubmitter.com, inboxdoctors.com, landininbox.com, reachsecret.com, smartemailers.com, postmasterpro.email, outreachrs.com. **Empfehlung: abmelden** und ins Ausschluss-Segment aufnehmen.
+- Weiterleitungsadressen mit Kauf: 4 (passmail.net 2, duck.com, addy.io)
