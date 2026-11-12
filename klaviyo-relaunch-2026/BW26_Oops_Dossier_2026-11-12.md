@@ -287,3 +287,59 @@ Dateien: `templates/BW26_01b_Ups_Aufloesung_Do_12-11_1830.html` und `.txt`
 - [Smaily: Oops emails](https://smaily.com/oops-emails-how-to-deal-with-mistakes-in-marketing-emails/)
 - [dotdigital: What to do if you send an email by mistake](https://dotdigital.com/blog/what-to-do-if-you-send-an-email-by-mistake/)
 - [Knak: Biggest Email Marketing Mistakes](https://knak.com/blog/when-oops-happens/)
+
+---
+
+## 7. Nachtrag 12.11. nachmittags: Zweitmeinung und neue Befunde
+
+### Zweitmeinung (externe KI-Einschätzung, von Leon eingefügt)
+
+**Status laut Zweitmeinung:** GELB. Ihre Empfehlung:
+1. Die werbliche Ups-Mail zurückhalten.
+2. Keine weitere Panne oder Geheimhaltung behaupten.
+3. Unterlagen sichern und anwaltlich prüfen lassen, ob eine sachliche Klarstellung nötig ist und an wen.
+4. Die Entscheidung nicht von der Zahl der Beschwerden abhängig machen.
+
+**Einordnung:**
+- **Zutreffend:** Die Auflösung ist **keine rechtliche Absicherung**. Ein abgeschlossener Verstoß begründet eine Wiederholungsgefahr. Die entfällt nur durch eine strafbewehrte Unterlassungserklärung, nicht durch eine Klarstellung. Die Auflösung senkt die Wahrscheinlichkeit, dass jemand tätig wird. Sie senkt nicht die Angreifbarkeit der Oops-Mail selbst. Frühere Formulierungen wie „stärkstes Argument gegen eine Abmahnung“ waren zu optimistisch. Richtig ist: Sie ist das stärkste praktische Mittel zur Schadensbegrenzung.
+- **Zutreffend:** Sichern, nichts Weiteres vortäuschen, nicht nach Beschwerdezahl entscheiden.
+- **Abwägung:** Der Beseitigungsanspruch gegen eine fortwirkende Fehlvorstellung spricht eher **für** eine zeitnahe, **sachliche** Klarstellung als für Zurückhalten. Deshalb gibt es jetzt eine sachliche Variante ohne Werbe-Hype (Template `VsZRzp`, siehe unten). Ob vor dem Versand eine anwaltliche Prüfung erfolgt, entscheidet Leon.
+
+### Sachliche Klarstellung (Variante B, Template `VsZRzp`)
+
+> **Betreff:** Kurze Klarstellung zu unserer Mail von heute Mittag
+>
+> Hallo,
+>
+> heute Mittag hast du von uns eine Mail bekommen, die wie eine interne Nachricht an Susanne aussah. Das war keine interne Mail und auch kein Versehen, sondern unsere Ankündigung der Black Week. Entschuldige, falls das für Verwirrung gesorgt hat.
+>
+> Was gilt: Vom 23. bis 30.11. gibt es bei pimpertz Black-Week-Preise, bei einzelnen Artikeln bis zu 40 % Rabatt. Wer sich auf der Aktionsseite einträgt, kommt am Montag, 23.11., um 10:30 Uhr einen Tag früher rein.
+>
+> Alle Infos: https://pimpertz.de/pages/black-week
+>
+> Viele Grüße
+> Anna
+>
+> (Signatur und Fußzeile wie in Variante A)
+
+**Unterschied zu Variante A:**
+- kein „erwischt 😉“
+- kein „weil du die Mail bekommen hast, kommst du früher rein“. Das wäre irreführend, weil sich jeder auf der Seite eintragen kann.
+- Daten statt Werbesprache
+
+### Neue Befunde zur Live-Landingpage
+
+Die Live-Seite ist **nicht** `landingpage/black-week.html` aus dem Repo, sondern die Theme-Section `sections/bw26-landing.liquid` (Template `page.bw26`, zuletzt geändert am 12.11. um 11:34 UTC).
+
+1. **Das VIP-Formular trägt in die Liste `XQ2zjf` „Black Week 2026 – VIP-Zugang“ ein, nicht in `Syrjty`.**
+   - Stand jetzt: **123 Eintragungen**, Single-Opt-in.
+   - Die VIP-Kampagne 02 ist auf `Syrjty` ausgerichtet. Diese 123 Personen würden den VIP-Zugang also **nicht** bekommen.
+   - **Muss bis zum 23.11. korrigiert werden:** `XQ2zjf` in die Zielgruppe der Mail 02 aufnehmen.
+2. **Ende der Aktion:** Die Seite nennt Cyber Monday, 30.11., 23:59 Uhr. Die Last-Chance-Mail 06 ist aber für Di 01.12. geplant. **Widerspruch, bitte klären.**
+3. **Datenschutzlink** am Formular ist vorhanden. Das Double-Opt-in fehlt (R5 teilweise erledigt).
+4. **Headline „Bis zu −40 %“ mit Lead „Auf offizielle Schwimmabzeichen, Urkunden und den Schwimmpass“:** Das ist das Problem R6. Die Korrektur muss in der Theme-Section erfolgen (Einstellung `deal_text` bzw. Lead-Text), nicht in der Repo-Datei.
+5. **„BFS- und DLRG-lizenziert“:** pimpertz ist lizenziert vom Bundesverband zur Förderung der Schwimmausbildung (BFS) und von der DLRG.
+   - Unter den Empfängern ist keine BFS-Domain.
+   - Die DLRG ist mit 108 Adressen dabei, darunter dlrg.de selbst.
+   - Wegen der Lizenzbeziehung empfehlenswert: Gibt es bei DLRG oder BFS eine persönliche Kontaktperson, ihr kurz und persönlich Bescheid geben.
+6. **Beweissicherung:** Leon macht heute einen Screenshot bzw. ein PDF der Live-Seite. Shopify speichert Theme-Versionen, die Klaviyo-Kampagne bleibt im Konto. Kopien der Mails liegen im Repo.
