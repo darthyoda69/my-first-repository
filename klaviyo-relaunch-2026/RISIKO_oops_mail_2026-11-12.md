@@ -12,7 +12,7 @@
 | Nr. | Risiko | Schwere | Wahrsch. | Score | Ampel |
 |---|---|:-:|:-:|:-:|:-:|
 | R1 | Werbecharakter verschleiert (Betreff und „interne Mail“) | 3 | 3 | 9 | GELB |
-| R2 | Ca. 1/3 der Empfänger ohne Newsletter-Einwilligung, und der Pflichthinweis für Bestandskunden fehlt | 3 | 3 | 9 | GELB |
+| R2 | Ca. 1/3 der Empfänger ohne Einwilligung in Klaviyo. Laut Leon aus dem Altshop importiert und dort abonniert, Nachweis aufbewahren | 2 | 2 | 4 | GRÜN (vorher 9) |
 | R3 | Die geplante Ups-Mail und alle Folgemails verlängern R1 und R2 | 3 | 4 | **12** | **ORANGE** |
 | R4 | Klaviyo-Konto: Richtlinie gegen irreführende Betreffzeilen, Spam-Beschwerden | 4 | 2 | 8 | GELB |
 | R5 | VIP-Liste ohne Double-Opt-in, kein Datenschutzlink am Formular | 2 | 3 | 6 | GELB |
@@ -86,6 +86,19 @@ Die Mail wirft zwei Rechtsfragen auf. Erstens: Ist der Werbecharakter erkennbar,
 **Wahrscheinlichkeit „möglich“:** Bei 11.700 Empfängern ist nicht auszuschließen, dass ein Mitbewerber, eine Agentur oder eine juristisch versierte Person die Mail bekommt.
 
 ### R2: Einwilligung und Bestandskundenprivileg. Schwere 3, Wahrscheinlichkeit 3, Score 9 (GELB)
+
+> **Update 12.11.2026 (Leon):** Die als NEVER_SUBSCRIBED geführten Profile stammen laut Leon aus einem Import aus dem früheren Shop. Dort hatten sie den Newsletter abonniert.
+>
+> **Klaviyo-Befund dazu:**
+> - Die Stichprobenprofile wurden im Mai 2026 angelegt.
+> - Sie sind auf keiner Liste.
+> - Sie haben keine Einwilligungsmethode und keinen Zeitstempel.
+>
+> **Neue Bewertung:** **GRÜN (2 × 2 = 4)**, unter zwei Bedingungen:
+> 1. Die Einwilligung wurde gegenüber pimpertz erteilt (dasselbe Unternehmen, nicht ein fremder Shop).
+> 2. Der Export aus dem Altsystem mit Datum und Anmeldeweg wird aufbewahrt.
+>
+> **Empfehlung:** Profile mit dem Original-Einwilligungsdatum als „subscribed“ nachimportieren, damit Klaviyo den Nachweis selbst führt.
 
 **Rechtsgrundlagen:**
 - **§ 7 Abs. 2 Nr. 2 UWG**: E-Mail-Werbung ist nur mit vorheriger ausdrücklicher Einwilligung erlaubt.
