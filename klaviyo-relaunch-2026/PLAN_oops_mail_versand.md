@@ -68,12 +68,13 @@ Nicht mehr enthalten sein dürfen: `XYPHUn` (pimpertz Email Liste ALL), `XMtiyK`
 
 **Empfängerzahl:** `refresh_campaign_recipient_estimation` + `get_campaign_recipient_estimation`. Falls das scheitert, Kern-Segment + VIP-Liste per `profile_count` addieren und als Näherung angeben. Erwartung: etwa 5.000–9.000.
 
-## Schritt 4: Inhalt und Einstellungen der Oops-Mail (API)
+## Schritt 4: Inhalt und Einstellungen der Oops-Mail (bereits erledigt am 12.11.2026, nur gegenlesen)
 
-- **Template:** V2 `Y3NzDB` zuweisen (`assign_template_to_campaign_message`), außer Leon sagt ausdrücklich V1. Inhalt prüfen: Preise 0,61 / 0,66 / 0,46 / 1,66 / 0,61 / 1,86 €, Termine Mo 23.11. 10:30 VIP / Di 24.11. alle / Di 01.12. 23:59 Ende, genau **ein** Link `https://pimpertz.de/pages/black-week`, Abmeldelink vorhanden.
-- **Betreff (V2):** `WG: Black Week – Preise final (bitte noch intern lassen)`. Preview-Text leer.
-- **Absender:** Name `Anna | pimpertz`. **Absenderadresse prüfen:** In Klaviyo (Einstellungen → Domains, via Chrome) nachsehen, ob `team.pimpertz.de` bzw. die Domain von `anna@team.pimpertz.de` als Absenderdomain verifiziert ist (SPF, DKIM, DMARC). Wenn nicht: die Absenderadresse der bisherigen Kampagnen verwenden (z. B. aus `get_campaign_variation 01KATQJPM8SM1DMD60DGQ9EEBT`), Absendername bleibt `Anna | pimpertz`. Ergebnis an Leon melden.
-- **Smart Sending:** an. Klick-Tracking an. Kein „Send Time Optimization“, kein Versand nach Zeitzone. Ein fixer Versand an alle gleichzeitig.
+- **Template:** `VBCpUX` „[NEU 2026] BW26_01_Oops_V3_Susanne_Plaintext“ ist der Variation `01M6V23117VBFCP9VRYC3KQX3Y` zugewiesen. Inhalt: interne Mail Anna → Susanne, ein Link `https://pimpertz.de/pages/black-week`, echte pimpertz-Signatur, Abmeldelink. HTML- und Textteil sind inhaltsgleich. Kein Bild, keine Tabelle, keine Webfonts.
+- **Betreff:** `Black-Week-Countdown – kurz drüberschauen?`. Preview-Text leer, damit Gmail die erste Zeile „Hey Susanne, …“ zeigt.
+- **Absender:** `Anna | pimpertz` <anna@team.pimpertz.de> (Standard-Absender des Kontos). Antworten gehen an info@pimpertz.de.
+- **Tracking:** Öffnungen aus, Klicks aus, UTM aus. Kein Tracking-Pixel, kein umgeschriebener Link, maximal „echte“ Mail. Gemessen wird über Neuzugänge der VIP-Liste (`Subscribed to List`, Quelle „Black Week 2026 LP“) und Bounce-, Abmelde- und Spamraten.
+- **Smart Sending:** an. Kein Send Time Optimization, keine Zeitzonen-Zustellung, ein fixer Versand.
 - **Kampagnenname** ändern in `BW26 · 01 · Oops interne Mail · <Datum> 10:15`.
 
 ## Schritt 5: Landingpage veröffentlichen (Shopify)
@@ -106,8 +107,8 @@ Erst nach GO: `schedule_campaign_message` mit der bestätigten Zeit. Danach Stat
 Text: `klaviyo-relaunch-2026/templates/BW26_01b_Ups_Aufloesung_Do_12-11.txt`. Datum im Text auf den tatsächlichen Versandtag anpassen: „am Dienstag“ muss zum Oops-Tag passen.
 
 1. Plaintext-Template wie V2 anlegen: minimales HTML, Link `https://pimpertz.de/pages/black-week`, Footer mit `{{ organization.name }} · {{ organization.full_address }}` und `{% unsubscribe 'Abmelden' %}`. Absender wie Oops.
-2. **Nach dem Oops-Versand** in Klaviyo (Chrome) Segment `BW26 · Oops geklickt` anlegen: „Clicked Email“ mindestens 1× über alle Zeit, wo `$message` = Nachrichten-ID der Oops-Mail.
-3. Kampagnen-Entwurf: **included** Kern-Segment, **excluded** `Syrjty` (schon VIP) + `BW26 · Oops geklickt` + die vier Ausschlüsse aus Schritt 3.
+2. Die Oops-Mail hat kein Klick-Tracking. Deshalb kein Klick-Segment, sondern die VIP-Liste als Ausschluss: Wer sich eingetragen hat, bekommt die Ups-Mail nicht.
+3. Kampagnen-Entwurf: **included** Kern-Segment, **excluded** `Syrjty` (schon VIP) + die vier Ausschlüsse aus Schritt 3. Tracking wie bei der Oops-Mail aus.
 4. Testmail an leonbenz@leon-benz.com, dann GO von Leon, dann einplanen.
 
 ## Schritt 9: Nach dem Oops-Versand auswerten (24 h danach)
